@@ -9,7 +9,15 @@
             "addWords": true
         }
     ],
-    "words": ["PiggyWeb", "APITester", "bunx", "tsconfig", "tailwindcss"],
+    "words": [
+        "APITester",
+        "bunx",
+        "Fanpaixiaogouriji",
+        "PiggyWeb",
+        "tailwindcss",
+        "tsconfig",
+        "Xiao"
+    ],
     "ignoreWords": ["tsx", "jsx"],
     "ignorePaths": [
         "node_modules/**",
