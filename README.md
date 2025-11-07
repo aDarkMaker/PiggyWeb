@@ -49,4 +49,12 @@
 
 ## 技术栈
 
-待定
+- Frontend: React
+- Backend: Go
+- DevTools:
+  - Cspell
+  - Prettier
+  - ESlint
+  - Bun
+  - Tailwind
+  - Husky
