@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "XiaoGou";
+    src: url("../assets/fonts/Fanpaixiaogouriji-Regular-2.ttf")
+        format("truetype");
+}
+
+body {
+    font-family: "XiaoGou", sans-serif;
+}
