@@ -1,0 +1,54 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "dictionaries": ["typescript", "node", "npm", "html", "css", "bash"],
+    "dictionaryDefinitions": [
+        {
+            "name": "project-words",
+            "path": "./cspell-words.txt",
+            "addWords": true
+        }
+    ],
+    "words": ["PiggyWeb", "APITester", "bunx", "tsconfig", "tailwindcss"],
+    "ignoreWords": ["tsx", "jsx"],
+    "ignorePaths": [
+        "node_modules/**",
+        "dist/**",
+        "build/**",
+        "*.lock",
+        "*.log",
+        ".git/**",
+        "bun.lock"
+    ],
+    "flagWords": [],
+    "enabledLanguageIds": [
+        "typescript",
+        "javascript",
+        "typescriptreact",
+        "javascriptreact",
+        "json",
+        "markdown",
+        "html",
+        "css"
+    ],
+    "overrides": [
+        {
+            "filename": "**/*.ts",
+            "languageSettings": [
+                {
+                    "languageId": "typescript",
+                    "dictionaries": ["typescript", "node"]
+                }
+            ]
+        },
+        {
+            "filename": "**/*.tsx",
+            "languageSettings": [
+                {
+                    "languageId": "typescriptreact",
+                    "dictionaries": ["typescript", "node"]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+# Git hook: pre-commit
+# Fast checks only – lint + type (bun)
+
+echo "🧹 Running code quality checks..."
+
+echo "📝 Checking code style with Biome..."
+bun run check:write
+if [ $? -ne 0 ]; then
+    echo "❌ Biome check failed! Please fix the issues above."
+    exit 1
+fi
+
+echo "🔍 Type checking..."
+bun run typecheck
+if [ $? -ne 0 ]; then
+    echo "❌ Type check failed! Please fix the type errors above."
+    exit 1
+fi
+
+echo "✅ Pre-commit checks passed!"
