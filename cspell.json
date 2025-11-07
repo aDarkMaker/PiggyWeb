@@ -16,7 +16,8 @@
         "PiggyWeb",
         "tailwindcss",
         "tsconfig",
-        "Xiao"
+        "Xiao",
+        "HXK"
     ],
     "ignoreWords": ["tsx", "jsx"],
     "ignorePaths": [
