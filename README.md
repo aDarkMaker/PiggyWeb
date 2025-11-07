@@ -52,9 +52,9 @@
 - Frontend: React
 - Backend: Go
 - DevTools:
-  - Cspell
-  - Prettier
-  - ESlint
-  - Bun
-  - Tailwind
-  - Husky
+    - Cspell
+    - Prettier
+    - ESlint
+    - Bun
+    - Tailwind
+    - Husky
