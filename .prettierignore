@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+bun.lock
+
+# Build outputs
+dist
+build
+*.min.js
+*.min.css
+
+# Logs
+*.log
+
+# Git
+.git
+.husky
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config files that shouldn't be formatted
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
